@@ -16,6 +16,7 @@
     "karma-story-reporter": "*"
   },
   "scripts": {
+    "test": "npm run jasmine",
     "jasmine": "node_modules/karma/bin/karma start karma.conf.js"
   }
 }
