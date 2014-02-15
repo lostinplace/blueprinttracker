@@ -9,6 +9,10 @@
     "express": "3.2.6",
     "jade": "*",
     "lodash": "*",
-    "csv": "*"
+    "csv": "*",
+    "karma": "*"
+  },
+  "scripts": {
+    "test": "node_modules/karma/bin/karma start karma.conf.js"
   }
 }
