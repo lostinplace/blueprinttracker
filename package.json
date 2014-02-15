@@ -9,11 +9,13 @@
     "express": "3.2.6",
     "jade": "*",
     "lodash": "*",
-    "csv": "*",
+    "csv": "*"
+  },
+  "devDependencies": {
     "karma": "*",
     "karma-story-reporter": "*"
   },
   "scripts": {
-    "test": "node_modules/karma/bin/karma start karma.conf.js"
+    "jasmine": "node_modules/karma/bin/karma start karma.conf.js"
   }
 }
